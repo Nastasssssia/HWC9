@@ -9,9 +9,6 @@
 
 */
 
-#include <stdio.h>
-#include <string.h>
-
 void find_longest_word(const char *input_file, const char *output_file)
 {
     FILE *in = fopen(input_file, "r");
